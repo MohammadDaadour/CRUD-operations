@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@1,100;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <h1>CRUDS</h1>
+        <img
+          id="st"
+          src="images/463030091_slide-796aa1416f65d7962b7b952d309a021929dfaa98-s1100-c50.jpg"
+          alt=""
+        />
+      </div>
+      <div class="second">
+        <div class="main">
+          <input type="text" placeholder="Name" id="name" />
+          <input type="text" placeholder="Age" id="age" />
+          <input type="text" placeholder="Job" id="job" />
+          <button id="delete">Delete</button>
+          <button onclick="create()" id="add">Add</button>
+          <div class="searchh">
+            <input
+              onkeyup="searchdata()"
+              type="text"
+              id="search"
+              placeholder="searchByName"
+            />
+            <input
+              onkeyup="searchByJob()"
+              type="text"
+              id="searchByJob"
+              placeholder="SearchByJob"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="third">
+        <div class="data">
+          <table>
+            <tr>
+              <th style="border-top-left-radius: 7px">Name</th>
+              <th>Age</th>
+              <th>Job</th>
+              <th style="border-top-right-radius: 7px">Delete</th>
+            </tr>
+            <tbody id="table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+  align-items: center;
+  justify-content: center;
+}
+
+#st {
+  width: 100%;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.main {
+  width: 50%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.main input {
+  margin: 20px;
+  padding: 12px;
+  outline: none;
+  border: grey solid 1px;
+  background-color: white;
+}
+
+.main input:focus {
+  border: black solid 1px;
+}
+
+#searchByJob {
+  max-width: 150px;
+}
+
+#search {
+  max-width: 150px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 10px;
+  height: 40px;
+}
+
+.searchh {
+  max-width: 400px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.third {
+  width: 100%;
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+#add {
+  padding: 10px;
+  width: 100px;
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 4px 4px gray;
+}
+
+#add:hover {
+  background-color: black;
+  color: white;
+}
+
+#delete {
+  padding: 3px;
+  width: 60px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  display: none;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(65, 65, 65);
+  color: white;
+}
+
+td {
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(209, 209, 209);
+  color: black;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: brown;
+}
